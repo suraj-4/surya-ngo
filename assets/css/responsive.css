@@ -1,0 +1,385 @@
+@media  (max-width: 1399px){
+    /* .banner-inner{
+        height: 650px;
+    } */
+    .sec-top {
+        top: -1px;
+    }
+    .sec-btm {
+        bottom: -2px;
+    }
+
+}
+@media  (max-width: 1199px){
+    h1 {
+        font-size: 60px;
+        line-height: 60px;
+    }
+    h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    h3 {
+        font-size: 50px;
+        line-height: 50px;
+    }
+    h4 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .navbar-nav .nav-item {
+        padding: 0 15px;
+    }
+    .icon-box {
+        width: 45px;
+        height: 45px;
+    }
+    .icon-box .normal-img, .icon-box .hover-img {
+        width: 25px;
+    }
+    .eventlist-wrap span {
+        font-size: 10px;
+    }
+    .eventlist-wrap .time-loc-wrap{
+        margin-bottom: 5px;
+    }
+}
+@media (max-width:991px){
+    .btn-navy-blue, .btn-orange{
+        font-size: 16px;
+    }
+    .logo-wrap{
+        max-width: 150px;
+        top: -12px;
+    }
+    .btm-header .container{
+        position: relative;
+        justify-content: flex-start;
+    }
+    .navbar-toggler {
+        order: 2;
+        padding: 10px 15px;
+        font-size: 20px;
+        line-height: 1;
+        color: var(--navy-blue);
+        background-color: transparent;
+        border: 1px solid var(--navy-blue);
+        border-radius: 6px;
+        transition: box-shadow .15s ease-in-out;
+        top: 40px;
+        transform: translateY(-50%);
+        right: 10px;
+        position: absolute;
+    }
+    .btm-header .btn-orange {
+        top: 40px;
+        transform: translateY(-50%);
+        right: 120px;
+        position: absolute;
+    }
+    div#navbarNav {
+        position: absolute;
+        width: 60%;
+        top: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #fff;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 0px 15px #0000009c;
+    }
+    .navbar-nav .nav-item {
+        padding: 0;
+        margin-bottom: 10px;
+    }
+    .fix-nav .navbar-toggler {
+        top: 20px;
+        padding: 6px 10px;
+    }
+    .fix-nav .btm-header .btn-orange{
+        top: 18px;
+    }
+    .fix-nav .btn-orange{
+        font-size: 14px;
+    }
+    .main-wrap {
+        margin-top: 156px;
+    }
+    .space-y {
+        padding: 60px 0;
+    }
+    .contentarea,.video-link-wrap{
+        margin-bottom: 80px;
+    }
+    .helping-item{
+        margin-top: 30px;
+    }
+    .videoSec{
+        background-size: 0;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+    .videoSec::before{
+        position: relative;
+    }
+    .videoSec-img {
+        width: 70%;
+    }
+    .ourTeam-img{
+        height: 350px;
+    }
+    .eventbig-img {
+        height: 450px;
+    }
+    .eventlist-img-wrap {
+        width: 25%;
+    }
+
+    .ctaSec{
+        padding: 120px 0;
+    }
+    .testiSec {
+        padding: 50px 0 0;
+    }
+    .testiSec .col-sm-12 {
+        margin-top: 80px;
+    }
+    .blogSec .heading{
+        width: 75%;
+    }
+    .blogSec .col-sm-12 {
+        margin-top: 50px;
+    }
+    .link-items, .hour-items,.social-items{
+        padding-left: 40px;
+    }
+    .contact-items,
+    .hour-items{
+        margin-top: 40px;
+    }
+    .rocket-img-wrap {
+        width: 75px;
+    }
+
+    /* =============== Key Frame and Animations CSS =============== */
+    @keyframes rocketlounch{
+        0%   {
+            width: 80px;
+            bottom: -32%;
+            opacity: 0;
+        }
+        50%   {
+            width: 230px;
+            opacity: 1;
+        }
+        100% {
+            right: 80%;
+            bottom: 115%;
+            width: 80px;
+            opacity: 0;
+            z-index: -10;
+        }
+    }
+    @keyframes rocketLounch{
+        0%   {
+            left: -40%;
+            bottom: -50%;
+            transform: rotate(45deg);
+        }
+    
+        100% {
+            left: 120%;
+            bottom: 110%;
+            transform: rotate(40deg);
+        }
+    }
+    /* =============== Key Frame and Animations CSS =============== */
+}
+@media (max-width:767px){
+    h1 {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    h2 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    h3 {
+        font-size: 35px;
+        line-height: 35px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .top-header-items a{
+        font-size: 0;
+    }
+    .fix-nav .btm-header {
+        height: 60px;
+    }
+    .logo-wrap {
+        max-width: 130px;
+    }
+    .banner-content {
+        left: 20px
+    }
+    .helping-item:hover .icon-box {
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+    .ourTeam-card{
+        width: 70%;
+        margin: 60px auto;
+    }
+    .slick-arrow {
+        width: 40px;
+        height: 40px;
+        background-size: 20px;
+    }
+    .slick-prev {
+        right: 75px;
+    }    
+    .eventbig-img {
+        height: 350px;
+    }
+    .blogSec .heading {
+        width: 60%;
+    }
+    .link-items{
+        margin-top: 40px;
+    }
+    .link-items, .hour-items,.social-items{
+        padding-left: 0px;
+    }
+    /* =============== Key Frame and Animations CSS =============== */
+    @keyframes sunDown{
+        0%   {
+            top: -200px;
+            max-width: 75px;
+            opacity: 0;
+        }
+        100% {
+            top: 0;
+            max-width: 100px;
+            opacity: 1;
+        }
+    }
+    @keyframes waterSplash{
+        0%   {
+            width: 250px;
+        }
+        100% {
+            width: 150px;
+        }
+    }
+    /* =============== Key Frame and Animations CSS =============== */
+}
+
+@media (max-width:575px){
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    h2 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    h4 {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .btn-navy-blue, .btn-orange {
+        font-size: 10px;
+        margin-top: 5px;
+    }
+    .fix-nav .btn-orange {
+        font-size: 10px;
+    }
+    header.fix-nav .top-header {
+        margin-top: -49px
+    }
+    .top-header-items p{
+        font-size: 0;
+    }
+    .logo-wrap {
+        max-width: 100px;
+    }
+    header.fix-nav .btm-header .scroll-logo{
+        max-width: 30%;
+    }
+    .btm-header .btn-orange {
+        right: 70px;
+    }
+    .main-wrap {
+        margin-top: 142px;
+    }
+    .banner{
+        height: 190px;
+    }
+    .banner-content {
+        left: 0px;
+    }
+    .support-item-header, .helping-item-header{
+        align-items: center;
+    }
+    .support-item {
+        width: 100%;
+        box-shadow: 0 0 10px #0000009c;
+    }
+    .support-item:nth-child(odd) {
+        top: 0;
+    }
+    .support-item-title, .helping-item-title {
+        width: 90%;
+    }
+    .support-item:hover {
+        margin-top: -20px;
+        margin-left: 0;
+    }
+    .videoSec-img ,.ourTeam-card {
+        width: 100%;
+    }
+    .slick-arrow {
+        top: -90px;
+    }
+    .eventbig-img {
+        height: 300px;
+    }
+    .datewrap {
+        left: 40px
+    }
+    .time-loc-wrap {
+        gap: 10px;
+    }
+    .eventlist-img-wrap {
+        width: 70%;
+    }
+    .eventlist-wrap .time-loc-wrap{
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .ctaSec {
+        padding: 70px 0;
+    }
+    .qrcode {
+        width: 130px;
+    }
+    .modal-content {
+        margin-top: 40px;
+    }    
+    .top-footer{
+        padding: 60px 0;
+    }
+    .footer-btm p {
+        font-size: 13px;
+    }
+}
+@media (max-width:360px){
+
+
+}
