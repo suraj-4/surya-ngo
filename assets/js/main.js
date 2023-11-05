@@ -43,13 +43,16 @@ $('.banner-slider').slick({
     slidesToScroll: 1,
     responsive: [
       {
-        breakpoint: 1024
+        breakpoint: 1024,
+        autoplay: true,
       },
       {
-        breakpoint: 600
+        breakpoint: 600,
+        autoplay: true,
       },
       {
-        breakpoint: 480
+        breakpoint: 480,
+        autoplay: true,
       }
     ]
   });
