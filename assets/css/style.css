@@ -1355,7 +1355,7 @@ footer ul li{
 .chatbot-toggler {
   position: fixed;
   bottom: 30px;
-  right: 35px;
+  left: 35px;
   outline: none;
   border: none;
   height: 50px;
@@ -1368,7 +1368,7 @@ footer ul li{
   background: #724ae8;
   transition: all 0.2s ease;
 }
-chatbot-wrapper.show-chatbot .chatbot-toggler {
+.chatbot-wrapper.show-chatbot .chatbot-toggler {
   transform: rotate(90deg);
 }
 .chatbot-toggler span {
@@ -1376,10 +1376,10 @@ chatbot-wrapper.show-chatbot .chatbot-toggler {
   position: absolute;
 }
 .chatbot-toggler span:last-child,
-chatbot-wrapper.show-chatbot .chatbot-toggler span:first-child  {
+.chatbot-wrapper.show-chatbot .chatbot-toggler span:first-child  {
   opacity: 0;
 }
-chatbot-wrapper.show-chatbot .chatbot-toggler span:last-child {
+.chatbot-wrapper.show-chatbot .chatbot-toggler span:last-child {
   opacity: 1;
 }
 .chatbot {
@@ -1398,7 +1398,7 @@ chatbot-wrapper.show-chatbot .chatbot-toggler span:last-child {
               0 32px 64px -48px rgba(0,0,0,0.5);
   transition: all 0.1s ease;
 }
-chatbot-wrapper.show-chatbot .chatbot {
+.chatbot-wrapper.show-chatbot .chatbot {
   opacity: 1;
   pointer-events: auto;
   transform: scale(1);
