@@ -1368,7 +1368,7 @@ footer ul li{
   background: #724ae8;
   transition: all 0.2s ease;
 }
-body.show-chatbot .chatbot-toggler {
+chatbot-wrapper.show-chatbot .chatbot-toggler {
   transform: rotate(90deg);
 }
 .chatbot-toggler span {
@@ -1376,10 +1376,10 @@ body.show-chatbot .chatbot-toggler {
   position: absolute;
 }
 .chatbot-toggler span:last-child,
-body.show-chatbot .chatbot-toggler span:first-child  {
+chatbot-wrapper.show-chatbot .chatbot-toggler span:first-child  {
   opacity: 0;
 }
-body.show-chatbot .chatbot-toggler span:last-child {
+chatbot-wrapper.show-chatbot .chatbot-toggler span:last-child {
   opacity: 1;
 }
 .chatbot {
@@ -1398,12 +1398,12 @@ body.show-chatbot .chatbot-toggler span:last-child {
               0 32px 64px -48px rgba(0,0,0,0.5);
   transition: all 0.1s ease;
 }
-body.show-chatbot .chatbot {
+chatbot-wrapper.show-chatbot .chatbot {
   opacity: 1;
   pointer-events: auto;
   transform: scale(1);
 }
-.chatbot header {
+.chatbot .chatbot-header {
   padding: 16px 0;
   position: relative;
   text-align: center;
@@ -1411,7 +1411,7 @@ body.show-chatbot .chatbot {
   background: #724ae8;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
-.chatbot header span {
+.chatbot .chatbot-header span {
   position: absolute;
   right: 15px;
   top: 50%;
@@ -1419,7 +1419,7 @@ body.show-chatbot .chatbot {
   cursor: pointer;
   transform: translateY(-50%);
 }
-header h2 {
+.chatbot-header h2 {
   font-size: 1.4rem;
 }
 .chatbot .chatbox {
@@ -1531,7 +1531,7 @@ header h2 {
   .chatbot .chat-input {
     padding: 5px 15px;
   }
-  .chatbot header span {
+  .chatbot chatbot-header span {
     display: block;
   }
 }
